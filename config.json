@@ -1,15 +1,15 @@
 {
     "mikrotik": {
-        "host": "10.42.0.5",
+        "host": "[NAS_MIKROTIK_IP_ADDRESS]",
         "api_port": 8728,
-        "username": "admin",
-        "password": "a"
+        "username": "[MIKROTIK_USERNAME]",
+        "password": "[MIKROTIK_PASSWORD]"
     },
     "radius": {
-        "secret": "147852",
+        "secret": "[NAS_RADIUS_SECRET]",
         "coa_port": 1700
     },
-    "total_bandwidth_mbps": 2000,
+    "total_bandwidth_mbps": [MAXIMUM_BANDWIDTH],
     "burst_time_seconds": 10,
     "log_file": "/var/log/bw_manager/bw_manager.log"
 }
