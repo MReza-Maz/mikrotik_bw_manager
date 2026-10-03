@@ -1,0 +1,10 @@
+[Unit]
+Description=Bandwidth Manager periodically
+
+[Timer]
+OnBootSec=30s
+OnUnitActiveSec=30s
+Unit=bw_manager.service
+
+[Install]
+WantedBy=timers.target

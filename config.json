@@ -1,0 +1,15 @@
+{
+    "mikrotik": {
+        "host": "10.42.0.5",
+        "api_port": 8728,
+        "username": "admin",
+        "password": "a"
+    },
+    "radius": {
+        "secret": "147852",
+        "coa_port": 1700
+    },
+    "total_bandwidth_mbps": 2000,
+    "burst_time_seconds": 10,
+    "log_file": "/var/log/bw_manager/bw_manager.log"
+}
